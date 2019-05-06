@@ -62,7 +62,7 @@ In particularly you can choose the wordlists used by the Nmap scripts and the mo
 
 ```bash
 ##############################################
-###				PARAMETERS				   ###
+###              PARAMETERS                ###
 ##############################################
 GENERAL_USER_LIST='general_user_wordlist_short.txt'
 WIN_USER_LIST='win_user_wordlist_short.txt'
@@ -71,7 +71,7 @@ SHORT_PASS_LIST='fasttrack.txt'
 LONG_PASS_LIST='rockyou.txt'
 
 ##############################################
-###				NMAP SETTING			   ###
+###             NMAP SETTING               ###
 ##############################################
 
 # PE (echo req), PP (timestamp-request)
