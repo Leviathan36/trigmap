@@ -6,6 +6,7 @@
 
 <br>
 <br>
+<br>
 
 <p align="center"><img src="https://github.com/Leviathan36/trigmap/blob/master/trigmap_images/trigmap_logo.png" width="90%" height="auto"></p>
 
