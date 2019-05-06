@@ -4,7 +4,10 @@
 ![LastUpdate](https://img.shields.io/badge/last%20update-2019%2F05-orange.svg)
 ![TestedOn](https://img.shields.io/badge/tested%20on-Kali%20Linux-red.svg)
 
-<p align="center"><img src="https://github.com/Leviathan36/trigmap/blob/master/trigmap_images/trigmap_logo.png" width="80%" height="auto"></p>
+<br>
+<br>
+
+<p align="center"><img src="https://github.com/Leviathan36/trigmap/blob/master/trigmap_images/trigmap_logo.png" width="90%" height="auto"></p>
 
 ## About
 Trigmap is a wrapper for Nmap.
