@@ -4,7 +4,7 @@
 ![LastUpdate](https://img.shields.io/badge/last%20update-2019%2F05-orange.svg)
 ![TestedOn](https://img.shields.io/badge/tested%20on-Kali%20Linux-red.svg)
 
-![logo]()
+<p align="center"><img src="https://github.com/Leviathan36/trigmap/blob/master/trigmap_images/trigmap_logo.png" width="80%" height="auto"></p>
 
 ## About
 Trigmap is a wrapper for Nmap.
@@ -32,7 +32,7 @@ Trigmap can be used in two ways:
 
    `trigmap [ENTER], and the script does the rest`
 
-![interactive_mode]()
+<p align="center"><img src="https://github.com/Leviathan36/trigmap/blob/master/trigmap_images/screenshots/interactive_mode.png" width="80%" height="auto"></p>
 
    * NON-interactive mode:
 
@@ -47,10 +47,10 @@ Trigmap can be used in two ways:
 
 <br>
 
-_**For more screenshots see the relative [directory]() of the repository.**_
+_**For more screenshots see the relative [directory](https://github.com/Leviathan36/trigmap/tree/master/trigmap_images/screenshots) of the repository.**_
 
 ## Dir Hierarchy
-![dir_hierarchy]()
+<p align="center"><img src="https://github.com/Leviathan36/trigmap/blob/master/trigmap_images/dir_hierarchy.PNG" width="80%" height="auto"></p>
 
 ## Customization
 It's possible to customize the script by changing the value of variables at the beginning of the file.
@@ -86,7 +86,7 @@ CUSTOM_SCAN='--max-retries 3 --min-rate 250'	# LIKE UNICORNSCAN
 ```
 
 ## Twin Brother
-This project is very similar to [Kaboom](), but it has a different philosophy; infact, it uses only Nmap, while Kaboom uses different tools, one for each task.
+This project is very similar to [Kaboom](https://github.com/Leviathan36/kaboom), but it has a different philosophy; infact, it uses only Nmap, while Kaboom uses different tools, one for each task.
 The peculiarity of Trigmap is the **portability** and the **efficient**, but it's recommended to use both the tools to
 scan the targets in a such way to gather more evidence with different tools (_redundancy_ and _reliability_).
 
