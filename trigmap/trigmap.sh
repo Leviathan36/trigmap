@@ -48,6 +48,9 @@ SCRIPT_ARGS="userdb=$GENERAL_USER_LIST,passdb=$SHORT_PASS_LIST"
 
 CUSTOM_SCAN='--max-retries 3 --min-rate 250'    # LIKE UNICORNSCAN
 
+SYN_FILE_NAME='script-syn'
+
+UDP_FILE_NAME='script-udp'
 
 ##############################################
 ###             FUNCTIONS                  ###  
@@ -253,10 +256,6 @@ make_nmap_parameters () {
     # PATH
     mkdir -p "$FILE_PATH/$HOST"
     FILE_PATH="$FILE_PATH/$HOST"
-    
-    # FILES 
-    SYN_FILE_NAME='script-syn'
-    UDP_FILE_NAME='script-udp'
     NMAP_SYN_FILE_PATH="-oA $FILE_PATH/$SYN_FILE_NAME"
     NMAP_UDP_FILE_PATH="-oA $FILE_PATH/$UDP_FILE_NAME"
     
@@ -279,7 +278,7 @@ make_nmap_parameters () {
 }
     
 
-# the function which calls nmap script
+# the function that calls nmap script
 #
 #$1 == ping scan
 #$2 == scan
