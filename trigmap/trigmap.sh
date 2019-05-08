@@ -166,6 +166,9 @@ sanitize_input () {
             * ) print_failure "INVALID PARAMETERS!"; print_help; exit 0;;
           esac
         done
+     
+    fi
+    
     
     # check input
     if [[ ! "$HOST" =~ ['1234567890./,'] && ! "$HOST" == 'localhost' ]]; then 
