@@ -28,7 +28,7 @@ GENERAL_USER_LIST='general_user_wordlist_short.txt'			#   <<
 WIN_USER_LIST='win_user_wordlist_short.txt'					#  <<<
 UNIX_USER_LIST='unix_user_wordlist_short.txt'				# <=============
 SHORT_PASS_LIST='fasttrack.txt'								#<======= CHANGE THESE TO CUSTOMIZE YOUR SCRIPT
-LONG_PASS_LIST='rockyou.txt'								# <=============
+LONG_PASS_LIST='passwords.lst'								# <=============
 															#  <<<
 ##############################################				#   <<
 ###				NMAP SETTING			   ###	
