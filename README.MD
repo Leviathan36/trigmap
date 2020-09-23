@@ -11,11 +11,7 @@
 <p align="center"><img src="https://github.com/Leviathan36/trigmap/blob/master/trigmap_images/trigmap_logo.png" width="90%" height="auto"></p>
 
 ## About
-Trigmap is a wrapper for Nmap.
-You can use it to easily start Nmap scan and especially to collect informations into a well
-organized directory hierarchy.
-The use of Nmap makes the script **portable** (easy to run not only on Kali Linux)
-and very **efficient** thanks to the optimized Nmap algorithms.
+Trigmap is a bash wrapper for Nmap. You can use it to easily run nmap scans and, especially, to collect information into a well organized directory hierarchy. The use of Nmap makes the script **portable** (easy to run not only on Kali Linux) and very **efficient** thanks to the optimized Nmap algorithms.
 
 ## Details
 Trigmap can performs several tasks using Nmap scripting engine (NSE):
